@@ -1,0 +1,11 @@
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\bin\Debug\net8.0\IteratorPattern.deps.json
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\bin\Debug\net8.0\IteratorPattern.dll
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\bin\Debug\net8.0\IteratorPattern.pdb
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.AssemblyInfoInputs.cache
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.AssemblyInfo.cs
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.csproj.CoreCompileInputs.cache
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.dll
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\refint\IteratorPattern.dll
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.pdb
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\ref\IteratorPattern.dll

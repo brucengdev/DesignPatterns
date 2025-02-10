@@ -1,10 +1,10 @@
 namespace IteratorPattern;
 
-public class ArrayIterator<T>: Iterator<T>
+public class Iterator<TItem>: Iterator<Iterable<TItem>, TItem>
 {
-    private T[] _array;
+    private Iterable<TItem>[] _array;
     private int _currentIndex;
-    public ArrayIterator(T[] array)
+    public Iterator(Iterable<TItem>[] array)
     {
         _array = array;
     }
@@ -26,7 +26,7 @@ public class ArrayIterator<T>: Iterator<T>
         return _currentIndex >= _array.Length - 1;
     }
 
-    public T GetCurrentItem()
+    public Iterable<TItem> GetCurrentItem()
     {
         if (_array.Length == 0)
         {

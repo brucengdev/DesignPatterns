@@ -7,7 +7,7 @@
 /// The algorithm can be replaced easily.
 /// </summary>
 /// <typeparam name="T"></typeparam>
-public interface Iterator<T>
+public interface Iterator<T, TItem> where T: Iterable<TItem>
 {
     void First();
     void Next();

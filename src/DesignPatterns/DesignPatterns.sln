@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "Iterator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern.Tests", "IteratorPattern.Tests\IteratorPattern.Tests.csproj", "{F233F9F7-6372-4026-B549-07F7E69C8126}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationPatterns", "CreationPatterns", "{3E9D75B5-B132-4A0A-8128-68CE5244C714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{579ADB12-85D0-40F0-A988-2E962D6ED386}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{F233F9F7-6372-4026-B549-07F7E69C8126}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F233F9F7-6372-4026-B549-07F7E69C8126}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F233F9F7-6372-4026-B549-07F7E69C8126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579ADB12-85D0-40F0-A988-2E962D6ED386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579ADB12-85D0-40F0-A988-2E962D6ED386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579ADB12-85D0-40F0-A988-2E962D6ED386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579ADB12-85D0-40F0-A988-2E962D6ED386}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{579ADB12-85D0-40F0-A988-2E962D6ED386} = {3E9D75B5-B132-4A0A-8128-68CE5244C714}
 	EndGlobalSection
 EndGlobal

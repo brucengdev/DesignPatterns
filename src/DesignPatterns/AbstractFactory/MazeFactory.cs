@@ -11,9 +11,9 @@ public class MazeFactory
         return new Wall();
     }
 
-    public virtual Door CreateDoor()
+    public virtual Door CreateDoor(Room r1, Room r2)
     {
-        return new Door();
+        return new Door(r1, r2);
     }
 
     public virtual Room CreateRoom(int id)

@@ -7,4 +7,11 @@ public class Room
     {
         _id = id;
     }
+    
+    private Dictionary<Side, object> arounds = new ();
+
+    public void SetSide(Side side, object thingy)
+    {
+        arounds[side] = thingy;
+    }
 }

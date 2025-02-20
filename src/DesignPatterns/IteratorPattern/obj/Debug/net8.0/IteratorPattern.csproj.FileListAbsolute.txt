@@ -9,3 +9,4 @@ C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\Ite
 C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\refint\IteratorPattern.dll
 C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.pdb
 C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\ref\IteratorPattern.dll
+C:\source\DesignPatterns\src\DesignPatterns\IteratorPattern\obj\Debug\net8.0\IteratorPattern.sourcelink.json

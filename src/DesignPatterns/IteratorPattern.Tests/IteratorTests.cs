@@ -1,5 +1,3 @@
-using Shouldly;
-
 namespace IteratorPattern.Tests;
 
 public class IteratorTests
@@ -16,11 +14,11 @@ public class IteratorTests
         sut.First();
         
         //assert
-        sut.GetCurrentItem().GetValue().ShouldBe(1);
+        Assert.Equal(1, sut.GetCurrentItem().GetValue());
         sut.Next();
-        sut.GetCurrentItem().GetValue().ShouldBe(2);
+        Assert.Equal(2, sut.GetCurrentItem().GetValue());
         sut.Next();
-        sut.GetCurrentItem().GetValue().ShouldBe(3);
-        sut.IsDone().ShouldBeTrue();
+        Assert.Equal(3, sut.GetCurrentItem().GetValue());
+        Assert.True(sut.IsDone());
     }
 }

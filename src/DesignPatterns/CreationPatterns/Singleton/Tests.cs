@@ -1,5 +1,4 @@
 namespace Singleton;
-using Shouldly;
 public class Tests
 {
     [Fact]
@@ -9,6 +8,6 @@ public class Tests
         //so this test is failing.
         var instance = Singleton.Instance();
         
-        instance.GetValue().ShouldBe("This is from MySingleton");
+        Assert.Equal("This is from MySingleton", instance.GetValue());
     }
 }

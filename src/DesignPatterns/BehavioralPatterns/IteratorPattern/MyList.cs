@@ -1,6 +1,6 @@
 namespace IteratorPattern;
 
-public class MyList
+public class MyList: Iterable2<int>
 {
     private int[] _items;
     public MyList(params int[] values)

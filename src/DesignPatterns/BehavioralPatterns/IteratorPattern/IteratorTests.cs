@@ -12,6 +12,7 @@ public class IteratorTests
         var iterator = array.CreateIterator();
 
         //act and assert
+        Assert.IsAssignableFrom<Iterable2<int>>(array);
         Assert.IsAssignableFrom<Iterator2<int>>(iterator);
 
         Assert.Equal(1, iterator.GetCurrentItem());

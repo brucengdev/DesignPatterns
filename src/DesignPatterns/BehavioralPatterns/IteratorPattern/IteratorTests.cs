@@ -1,4 +1,6 @@
-namespace IteratorPattern.Tests;
+using Xunit;
+
+namespace IteratorPattern;
 
 public class IteratorTests
 {

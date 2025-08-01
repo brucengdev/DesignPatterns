@@ -38,8 +38,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "BehavioralPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "BehavioralPatterns\IteratorPattern\IteratorPattern.csproj", "{5A8520D8-545E-4F29-BADB-36911C9C7EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern.Tests", "BehavioralPatterns\IteratorPattern.Tests\IteratorPattern.Tests.csproj", "{590F8D37-B73E-4260-9700-EC9D6601B986}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -118,10 +116,6 @@ Global
 		{5A8520D8-545E-4F29-BADB-36911C9C7EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A8520D8-545E-4F29-BADB-36911C9C7EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A8520D8-545E-4F29-BADB-36911C9C7EFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{590F8D37-B73E-4260-9700-EC9D6601B986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{590F8D37-B73E-4260-9700-EC9D6601B986}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{590F8D37-B73E-4260-9700-EC9D6601B986}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{590F8D37-B73E-4260-9700-EC9D6601B986}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{579ADB12-85D0-40F0-A988-2E962D6ED386} = {3E9D75B5-B132-4A0A-8128-68CE5244C714}
@@ -141,6 +135,5 @@ Global
 		{BBE661DF-6C7B-42E8-9346-CDA312E9400F} = {A109CE90-C96D-485A-97D0-D10256235BAA}
 		{2ECAB64D-3DD5-418D-A233-9EB3BF654DC5} = {A109CE90-C96D-485A-97D0-D10256235BAA}
 		{5A8520D8-545E-4F29-BADB-36911C9C7EFB} = {A109CE90-C96D-485A-97D0-D10256235BAA}
-		{590F8D37-B73E-4260-9700-EC9D6601B986} = {A109CE90-C96D-485A-97D0-D10256235BAA}
 	EndGlobalSection
 EndGlobal

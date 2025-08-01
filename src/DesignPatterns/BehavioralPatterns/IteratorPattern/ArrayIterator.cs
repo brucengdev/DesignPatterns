@@ -1,38 +1,23 @@
 namespace IteratorPattern;
 
-public class Iterator<TItem>: Iterator<Iterable<TItem>, TItem>
+public class ArrayIterator<TItem>: Iterator2<TItem>
 {
-    private Iterable<TItem>[] _array;
-    private int _currentIndex;
-    public Iterator(Iterable<TItem>[] array)
+    private TItem[] _items;
+    private int _current = 0;
+    public ArrayIterator(TItem[] items)
     {
-        _array = array;
+        _items = items;
     }
-    public void First()
+
+    public TItem GetCurrentItem()
     {
-        _currentIndex = 0;
+        return _items[_current];
     }
 
     public void Next()
     {
-        if (_currentIndex < _array.Length - 1)
-        {
-            _currentIndex++;
-        }
+        _current++;
     }
 
-    public bool IsDone()
-    {
-        return _currentIndex >= _array.Length - 1;
-    }
-
-    public Iterable<TItem> GetCurrentItem()
-    {
-        if (_array.Length == 0)
-        {
-            return default; 
-        }
-
-        return _array[_currentIndex];
-    }
+    public bool IsDone => _current >= _items.Length;
 }

@@ -11,7 +11,10 @@ public class DishDialogDirector: DialogDirector
     {
         var dishName = new TextField("Dish Name", this);
         _widgets["DishName"] = dishName;
+        
         var dishList = new ListField("Dish List", this);
+        _widgets["DishList"] = dishList;
+        
         var discountCheckbox = new Checkbox("Discount", this);
     }
 }

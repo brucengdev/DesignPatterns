@@ -13,6 +13,7 @@ public class DishDialogDirector: DialogDirector
         _widgets["DishName"] = dishName;
         
         var dishList = new ListField("Dish List", this);
+        dishList.AddItems("Pizza", "Ramen", "Sushi", "Burger");
         _widgets["DishList"] = dishList;
         
         var discountCheckbox = new Checkbox("Discount", this);

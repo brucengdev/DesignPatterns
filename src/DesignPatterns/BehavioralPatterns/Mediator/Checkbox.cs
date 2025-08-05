@@ -1,6 +1,6 @@
 namespace Mediator;
 
-public class Checkbox
+public class Checkbox: Widget
 {
     public Checkbox(string label, DishDialogDirector director)
     {

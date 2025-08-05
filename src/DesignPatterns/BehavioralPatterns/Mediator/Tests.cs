@@ -10,5 +10,6 @@ public class Tests
 
         var dishName = director.Widgets["DishName"] as TextField;
         var dishList = director.Widgets["DishList"] as ListField;
+        var checkBox = director.Widgets["Discount"] as Checkbox;
     }
 }

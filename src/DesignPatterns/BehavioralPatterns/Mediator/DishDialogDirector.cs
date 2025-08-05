@@ -16,5 +16,6 @@ public class DishDialogDirector: DialogDirector
         _widgets["DishList"] = dishList;
         
         var discountCheckbox = new Checkbox("Discount", this);
+        _widgets["Discount"] = discountCheckbox;
     }
 }

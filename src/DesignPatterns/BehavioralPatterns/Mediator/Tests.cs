@@ -7,5 +7,7 @@ public class Tests
     {
         var director = new DishDialogDirector();
         var dishName = new TextField("Dish Name", director);
+        var dishList = new ListField("Dish List", director);
+
     }
 }

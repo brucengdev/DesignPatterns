@@ -8,6 +8,7 @@ public class Tests
         var director = new DishDialogDirector();
         director.CreateWidgets();
 
-        var dishName = director.Widgets["DishName"];
+        var dishName = director.Widgets["DishName"] as TextField;
+        var dishList = director.Widgets["DishList"] as ListField;
     }
 }

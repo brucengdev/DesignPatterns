@@ -1,6 +1,6 @@
 namespace Mediator;
 
-public class ListField
+public class ListField: Widget
 {
     public ListField(string label, DialogDirector director)
     {

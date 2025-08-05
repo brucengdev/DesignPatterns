@@ -1,6 +1,6 @@
 namespace Mediator;
 
-public class TextField
+public class TextField: Widget
 {
     public TextField(string label, DialogDirector director)
     {

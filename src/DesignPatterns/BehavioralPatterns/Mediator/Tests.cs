@@ -7,5 +7,7 @@ public class Tests
     {
         var director = new DishDialogDirector();
         director.CreateWidgets();
+
+        var dishName = director.Widgets["DishName"];
     }
 }

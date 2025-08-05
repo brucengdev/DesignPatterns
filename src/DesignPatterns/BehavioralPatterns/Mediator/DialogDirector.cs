@@ -1,6 +1,6 @@
 namespace Mediator;
 
-public class DialogDirector
+public abstract class DialogDirector
 {
-    
+    public abstract void CreateWidgets();
 }

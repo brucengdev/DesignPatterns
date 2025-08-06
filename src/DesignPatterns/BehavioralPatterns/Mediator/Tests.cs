@@ -2,8 +2,10 @@ namespace Mediator;
 
 public class Tests
 {
-    [Fact]
-    public void Select_western_dish_by_list_field()
+    [Theory]
+    [InlineData("Pizza", false)]
+    [InlineData("Burger", false)]
+    public void Select_western_dish_by_list_field(string dish, bool shouldDiscount)
     {
         //arrange
         var director = new DishDialogDirector();
@@ -14,10 +16,10 @@ public class Tests
         var discountCheckbox = director.Widgets["Discount"] as Checkbox;
         
         //act
-        dishList.Select("Pizza");
+        dishList.Select(dish);
         
         //assert
-        Assert.Equal("Pizza", dishName.Text);
-        Assert.False(discountCheckbox.Enabled);//no discount for western dishes
+        Assert.Equal(dish, dishName.Text);
+        Assert.Equal(shouldDiscount, discountCheckbox.Enabled);//no discount for western dishes
     }
 }

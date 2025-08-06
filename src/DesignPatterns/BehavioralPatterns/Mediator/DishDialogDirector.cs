@@ -33,5 +33,10 @@ public class DishDialogDirector: DialogDirector
                 _discount.Checked = true;
             }
         }
+
+        if (widget == _dishName && _dishName.Text != null)
+        {
+            _dishList.Select(_dishName.Text);
+        }
     }
 }

@@ -25,6 +25,11 @@ public class ListField: Widget
             throw new ArgumentException("Option not found in the list.", nameof(option));
         }
 
+        if (_selectedOption == option)
+        {
+            return;
+        }
+
         _selectedOption = option;
         _director.WidgetChanged(this);
     }

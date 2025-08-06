@@ -3,7 +3,7 @@ namespace Mediator;
 public class TextField: Widget
 {
     private string _text = "";
-    private DialogDirector _director;
+    private IDialogDirector _director;
     public string Text
     {
         get
@@ -21,7 +21,7 @@ public class TextField: Widget
         }
     }
 
-    public TextField(string label, DialogDirector director)
+    public TextField(string label, IDialogDirector director)
     {
         _director = director;
     }

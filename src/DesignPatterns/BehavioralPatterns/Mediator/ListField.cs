@@ -4,11 +4,11 @@ public class ListField: Widget
 {
     private string[] _options = [];
     private string? _selectedOption = null;
-    private DialogDirector _director;
+    private IDialogDirector _director;
 
     public string? SelectedOption => _selectedOption;
     
-    public ListField(string label, DialogDirector director)
+    public ListField(string label, IDialogDirector director)
     {
         _director = director;
     }

@@ -6,5 +6,5 @@ public class Checkbox: Widget
     {
     }
 
-    public bool Enabled { get; }
+    public bool Checked { get; set; }
 }

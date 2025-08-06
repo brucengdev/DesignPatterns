@@ -28,6 +28,10 @@ public class DishDialogDirector: DialogDirector
         if (widget == _dishList && _dishList.SelectedOption != null)
         {
             _dishName.Text = _dishList.SelectedOption;
+            if (_dishName.Text == "Burger" || _dishName.Text == "Pizza")
+            {
+                _discount.Checked = true;
+            }
         }
     }
 }

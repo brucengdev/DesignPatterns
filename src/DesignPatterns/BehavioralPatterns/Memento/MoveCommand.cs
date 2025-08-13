@@ -14,4 +14,10 @@ public class MoveCommand: AbstractCommand
         Target.X += _deltaX;
         Target.Y += _deltaY;
     }
+
+    public override void Unexecute()
+    {
+        Target.X -= _deltaX;
+        Target.Y -= _deltaY;
+    }
 }

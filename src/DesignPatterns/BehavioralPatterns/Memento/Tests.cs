@@ -44,4 +44,22 @@ public class Tests
         Assert.Equal(12, table.X);
         Assert.Equal(15, table.Y);
     }
+    
+    [Fact]
+    public void TestMoveCommandTwiceAndUnexecute()
+    {
+        //arrange
+        var table = new Table();
+        var command1 = new MoveCommand(table, 10, 20);
+        var command2 = new MoveCommand(table, 2, -5);
+        
+        //act
+        command1.Execute();
+        command2.Execute();
+        command2.Unexecute();
+        
+        //assert
+        Assert.Equal(10, table.X);
+        Assert.Equal(20, table.Y);
+    }
 }

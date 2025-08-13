@@ -22,5 +22,9 @@ public class Tests
         
         //act
         command.Execute();
+        
+        //assert
+        Assert.Equal(10, table.X);
+        Assert.Equal(20, table.Y);
     }
 }

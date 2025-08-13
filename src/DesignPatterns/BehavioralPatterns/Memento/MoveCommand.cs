@@ -2,11 +2,16 @@ namespace Memento;
 
 public class MoveCommand: AbstractCommand
 {
-    public MoveCommand(Table table, int x, int y) : base(table)
+    private int _deltaX, _deltaY;
+    public MoveCommand(Furniture target, int x, int y) : base(target)
     {
+        _deltaX = x;
+        _deltaY = y;
     }
 
     public override void Execute()
     {
+        Target.X = _deltaX;
+        Target.Y = _deltaY;
     }
 }

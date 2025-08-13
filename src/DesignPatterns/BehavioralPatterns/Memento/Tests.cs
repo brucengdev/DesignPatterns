@@ -19,5 +19,8 @@ public class Tests
         //arrange
         var table = new Table();
         var command = new MoveCommand(table, 10, 20);
+        
+        //act
+        command.Execute();
     }
 }

@@ -11,7 +11,7 @@ public class MoveCommand: AbstractCommand
 
     public override void Execute()
     {
-        Target.X = _deltaX;
-        Target.Y = _deltaY;
+        Target.X += _deltaX;
+        Target.Y += _deltaY;
     }
 }

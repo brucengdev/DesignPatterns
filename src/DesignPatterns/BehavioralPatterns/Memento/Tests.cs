@@ -48,6 +48,8 @@ public class Tests
         //assert
         Assert.Equal(12, table.X);
         Assert.Equal(15, table.Y);
+        Assert.Equal(-2, table.Arrow.X);
+        Assert.Equal(5, table.Arrow.Y);
     }
     
     [Fact]

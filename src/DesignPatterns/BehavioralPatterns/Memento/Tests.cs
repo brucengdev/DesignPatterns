@@ -11,6 +11,9 @@ public class Tests
         //assert
         Assert.Equal(0, table.X);
         Assert.Equal(0, table.Y);
+        
+        Assert.Equal(0, table.Arrow.X);
+        Assert.Equal(0, table.Arrow.Y);
     }
     
     [Fact]

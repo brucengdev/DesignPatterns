@@ -16,16 +16,23 @@ public class ArrowMemento
     public class ArrowResolver
     {
         private Furniture _target;
+        private int _arrowX, _arrowY;
 
         public ArrowResolver(Furniture target)
         {
             _target = target;
         }
 
-        public void ResolveArrow(int deltaX, int deltaY)
+        public void ResolveArrow(int? deltaX = null, int? deltaY = null)
         {
-            _target.Arrow.X = -deltaX; //arrow points to the opposite direction of the movement
-            _target.Arrow.Y = -deltaY;
+            if(deltaX != null && deltaY != null)
+            {
+                _target.Arrow.X = -deltaX.Value;
+                _target.Arrow.Y = -deltaY.Value;
+                return;
+            }
+            _target.Arrow.X = _arrowX; //arrow points to the opposite direction of the movement
+            _target.Arrow.Y = _arrowY;
         }
 
         public ArrowMemento CreateMemento()
@@ -35,8 +42,8 @@ public class ArrowMemento
 
         public void SetState(ArrowMemento state)
         {
-            _target.Arrow.X = state._arrowX;
-            _target.Arrow.Y = state._arrowY;
+            _arrowX = state._arrowX;
+            _arrowY = state._arrowY;
         }
     }
 }

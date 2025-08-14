@@ -25,5 +25,6 @@ public class MoveCommand: AbstractCommand
         Target.Y -= _deltaY;
         var resolver = new ArrowMemento.ArrowResolver(Target);
         resolver.SetState(_state);
+        resolver.ResolveArrow();
     }
 }

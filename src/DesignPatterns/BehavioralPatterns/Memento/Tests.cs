@@ -68,5 +68,7 @@ public class Tests
         //assert
         Assert.Equal(10, table.X);
         Assert.Equal(20, table.Y);
+        Assert.Equal(-10, table.Arrow.X);
+        Assert.Equal(-20, table.Arrow.Y);
     }
 }

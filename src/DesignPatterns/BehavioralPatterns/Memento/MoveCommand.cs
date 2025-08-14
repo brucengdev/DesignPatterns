@@ -13,6 +13,7 @@ public class MoveCommand: AbstractCommand
     {
         Target.X += _deltaX;
         Target.Y += _deltaY;
+        new ArrowResolver(Target).ResolveArrow(_deltaX, _deltaY);
     }
 
     public override void Unexecute()

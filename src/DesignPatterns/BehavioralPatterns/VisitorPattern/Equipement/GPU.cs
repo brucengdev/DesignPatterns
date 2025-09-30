@@ -7,4 +7,9 @@ public class GPU: Equipment
     }
 
     public override int Prize() => 200;
+
+    public override void Accept(Visitor visitor)
+    {
+        visitor.VisitGPU(this);
+    }
 }

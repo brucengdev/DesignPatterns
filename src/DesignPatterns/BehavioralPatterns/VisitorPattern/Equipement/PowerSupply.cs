@@ -7,4 +7,9 @@ public class PowerSupply:Equipment
     }
 
     public override int Prize() => 100;
+
+    public override void Accept(Visitor visitor)
+    {
+        visitor.VisitPowerSupply(this);
+    }
 }

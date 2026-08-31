@@ -1,0 +1,5 @@
+﻿<table>
+<td class='green'>Stocks: +1000</td>
+<td class='green'>Gold: +100</td>
+<td class='green'>RealEstate: +2000</td>
+</table>

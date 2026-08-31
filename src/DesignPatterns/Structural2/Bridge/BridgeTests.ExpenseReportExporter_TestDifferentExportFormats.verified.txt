@@ -1,0 +1,16 @@
+﻿{
+  markDownReport:
+## Expenses
+
+ - food: -20
+ - rent: -1000
+,
+  htmlReport:
+<h2>Expenses</h2>
+
+<ul>
+ <li>food: -20</li>
+ <li>rent: -1000</li>
+</ul>
+
+}

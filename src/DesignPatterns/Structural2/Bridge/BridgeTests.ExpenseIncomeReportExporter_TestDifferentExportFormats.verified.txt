@@ -1,0 +1,28 @@
+﻿{
+  markDownReport:
+## Expenses
+
+ - food: -20
+ - rent: -1000
+
+## Income
+
+ - Salary: +500
+ - Divident: +100
+,
+  htmlReport:
+<h2>Expenses</h2>
+
+<ul>
+ <li>food: -20</li>
+ <li>rent: -1000</li>
+</ul>
+
+<h2>Income</h2>
+
+<ul>
+ <li>Salary: +500</li>
+ <li>Divident: +100</li>
+</ul>
+
+}

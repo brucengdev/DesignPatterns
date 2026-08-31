@@ -1,0 +1,9 @@
+﻿Expenses:
+ - Supermarket: -20
+ - Books: -30
+ - Rent: -120
+
+Investments:
+ - Stocks: +1000
+ - Gold: +100
+ - RealEstate: +2000

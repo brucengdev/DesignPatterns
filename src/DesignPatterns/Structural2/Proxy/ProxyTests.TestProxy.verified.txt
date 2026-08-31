@@ -1,0 +1,4 @@
+﻿Product #0
+Name: HP Omen Description: Powerful gaming laptop from HP
+Product #1
+Name: Macbook Pro Description: Pro computer line from Apple

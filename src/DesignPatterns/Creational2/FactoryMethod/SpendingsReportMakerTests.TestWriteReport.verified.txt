@@ -1,0 +1,3 @@
+﻿Shopping: -27
+Gifts: -34
+Total: -61

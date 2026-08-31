@@ -1,0 +1,23 @@
+﻿Purchases:
+=====================================
+HP - HP Omen
+Powerful gaming laptop from HP
+Quantity: 2, For department: Accounting
+-------------
+Apple - Macbook Pro
+The pro version of the Macbook computer line
+Quantity: 3, For department: Business Analyst department
+-------------
+Microsoft - Surface Pro
+Ultra portable 2 in 1 computers
+Quantity: 5, For department: IT department
+-------------
+Apple - Macbook Pro
+The pro version of the Macbook computer line
+Quantity: 12, For department: Engineering
+-------------
+HP - HP Omen
+Powerful gaming laptop from HP
+Quantity: 5, For department: Sales
+-------------
+=====================================

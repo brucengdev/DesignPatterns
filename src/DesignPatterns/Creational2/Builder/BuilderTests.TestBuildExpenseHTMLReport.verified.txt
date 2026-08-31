@@ -1,0 +1,5 @@
+﻿<table>
+<td class='red'>Supermarket: -20</td>
+<td class='red'>Books: -30</td>
+<td class='red'>Rent: -120</td>
+</table>
